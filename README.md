@@ -14,14 +14,14 @@ mortuary-project/
 
 - :file_folder: data
 - :file_folder: data-raw
-  + [mortuary_data.R](/project-name/data-raw/mortuary_data.R)
+  + [:page_facing_up: mortuary_data.R](/project-name/data-raw/mortuary_data.R)
 - :file_folder: docs
-  + [manuscript.qmd](/project-name/docs/manuscript.qmd)
+  + [:page_facing_up: manuscript.qmd](/project-name/docs/manuscript.qmd)
 - :file_folder: figures
 - :file_folder: scripts
-  + [01_data-clean.R](/project-name/scripts/01_data-cleaning.R)
-  + [02_data-viz.R](/project-name/scripts/02_data-viz.R)
-  + [03_data-transform.R](/project-name/scripts/03_data-transform.R)
+  + [:page_facing_up: 01_data-clean.R](/project-name/scripts/01_data-cleaning.R)
+  + [:page_facing_up: 02_data-viz.R](/project-name/scripts/02_data-viz.R)
+  + [:page_facing_up: 03_data-transform.R](/project-name/scripts/03_data-transform.R)
 
 ## License
 
