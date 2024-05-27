@@ -59,9 +59,17 @@ select(mortuary_data, !c(Layer, Pit, Coffin)) # NOT select by name
 
 select(mortuary_data, !Layer, !Pit, !Coffin) # Does NOT work as expected
 
-dimension_data <- mortuary_data |> # take mortuary_data, and then
-  filter(Phase != "disturbed") |> # filter out "disturbed", and then
+dimension_data <- mortuary_data |> 
+  filter(Phase != "disturbed") |> 
   mutate(Area = Length * Width, .after = Height) |>
   select(ID, Length, Width, Height, Area, Phase)
+
+mortuary_data |>
+  group_by(Phase, Layer) |>
+  summarise(
+    mean_area = mean(Area),
+    sd_area = sd(Area)
+  )
+
 
 data.frame(mortuary_data) # standard data frame
