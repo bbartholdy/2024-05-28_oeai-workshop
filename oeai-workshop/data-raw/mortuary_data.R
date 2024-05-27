@@ -50,9 +50,14 @@ data_clean <- renamed_data |>
     ),
     across(
       c(Length, Width),
-      \(x) str_remove(x, "\\+")
+      \(x) str_remove(x, "\\+") |> as.numeric()
     )
   )
+
+str(data_clean)
+
+write_csv(data_clean, "data/mortuary_clean.csv")
+
 
 # modifying strings
 mutate(renamed_data, Length = str_remove(Length, "\\+"))
