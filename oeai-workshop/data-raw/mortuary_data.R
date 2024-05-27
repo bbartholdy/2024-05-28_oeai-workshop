@@ -39,7 +39,7 @@ renamed_data |>
     )
   )
 
-renamed_data |>
+data_clean <- renamed_data |>
   mutate(
     across(
       c(Glass_bead, IndoPacific_bead, Gold_leaf, Stamped_ceramic, Ceramic_vessel, Stoneware),
