@@ -24,7 +24,15 @@ renamed_data |>
       true = NA,
       false = Glass_bead
     )
+  ) |>
+  mutate(
+    IndoPacific_bead = case_when(
+      IndoPacific_bead == "cluster" ~ NA,
+      IndoPacific_bead == "unsure number" ~ NA,
+      .default = IndoPacific_bead
+    )
   )
 
 renamed_data$Glass_bead == "shatter"
+renamed_data$IndoPacific_bead
 
