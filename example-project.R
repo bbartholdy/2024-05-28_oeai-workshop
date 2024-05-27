@@ -33,6 +33,6 @@ known_context <- filter(
 # under the hood of filter()
 mortuary_data$Phase != "disturbed"
 
+arrange(known_context, desc(Length)) # descending order of Length
 
-
-data.frame(mortuary_data)
+data.frame(mortuary_data) # standard data frame
