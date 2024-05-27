@@ -10,6 +10,8 @@ can be found below.
 
 ## Materials
 
+Link to example data: <https://edu.nl/hwgat>
+
 mortuary-project/
 
 - :file_folder: data
