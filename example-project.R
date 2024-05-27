@@ -69,6 +69,7 @@ dimension_data |>
   summarise(
     n = n(),
     mean_area = mean(Area),
+    median_area = median(Area),
     sd_area = sd(Area)
   )
 
