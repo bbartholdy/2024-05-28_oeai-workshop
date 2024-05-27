@@ -64,12 +64,21 @@ dimension_data <- mortuary_data |>
   mutate(Area = Length * Width, .after = Height) |>
   select(ID, Length, Width, Height, Area, Phase)
 
-mortuary_data |>
-  group_by(Phase, Layer) |>
+dimension_data |>
+  group_by(Phase) |>
   summarise(
+    n = n(),
     mean_area = mean(Area),
     sd_area = sd(Area)
   )
 
+dimension_data |>
+  ggplot(aes(x = Phase, y = Area, fill = Phase)) +
+    geom_boxplot() +
+    geom_jitter(width = 0.2, height = 0.2) +
+    theme_bw() +
+    theme(legend.position = "none")
+
+ggsave("Documents/my-first-plot.png", width = 5, height = 4, units = "in", dpi = 600)
 
 data.frame(mortuary_data) # standard data frame
