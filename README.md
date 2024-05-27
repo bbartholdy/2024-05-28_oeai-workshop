@@ -16,7 +16,7 @@ mortuary-project/
 
 - :file_folder: data
 - :file_folder: data-raw
-  + [:page_facing_up: mortuary_data.R](/project-name/data-raw/mortuary_data.R)
+  + [:page_facing_up: mortuary_data.R](/oeai-workshop/data-raw/mortuary_data.R)
 - :file_folder: docs
   + [:page_facing_up: manuscript.qmd](/project-name/docs/manuscript.qmd)
 - :file_folder: figures
