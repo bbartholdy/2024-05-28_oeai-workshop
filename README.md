@@ -28,4 +28,4 @@ mortuary-project/
 The data are from Li-Ying Wang and Ben Marwick (2021; https://doi.org/10.17605/OSF.IO/XGA6N)
 and are licensed under [CC BY Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
 
-The Code is licensed under [The Unlicense](https://unlicense.org/) (public domain).
+The code is licensed under [The Unlicense](https://unlicense.org/) (public domain).
