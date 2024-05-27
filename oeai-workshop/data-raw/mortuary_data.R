@@ -39,9 +39,26 @@ renamed_data |>
     )
   )
 
+renamed_data |>
+  mutate(
+    across(
+      c(Glass_bead, IndoPacific_bead, Gold_leaf, Stamped_ceramic, Ceramic_vessel, Stoneware),
+      \(x) case_match(x,
+                      c("shatter", "cluster", "unsure number", "base") ~ NA,
+                      .default = x) |>
+        as.numeric()
+    ),
+    across(
+      c(Length, Width),
+      \(x) str_remove(x, "\\+")
+    )
+  )
+
 # modifying strings
 mutate(renamed_data, Length = str_remove(Length, "\\+"))
 str_remove(renamed_data$Width, "\\+")
+
+
 
 renamed_data$Glass_bead == "shatter"
 renamed_data$IndoPacific_bead
