@@ -40,7 +40,7 @@ renamed_data |>
   )
 
 # modifying strings
-
+mutate(renamed_data, Length = str_remove(Length, "\\+"))
 str_remove(renamed_data$Width, "\\+")
 
 renamed_data$Glass_bead == "shatter"
