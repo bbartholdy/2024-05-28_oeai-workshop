@@ -31,7 +31,17 @@ renamed_data |>
       IndoPacific_bead == "unsure number" ~ NA,
       .default = IndoPacific_bead
     )
+  ) |>
+  mutate(
+    across(
+      c(Length, Width),
+      \(x) str_remove(x, "\\+")
+    )
   )
+
+# modifying strings
+
+str_remove(renamed_data$Width, "\\+")
 
 renamed_data$Glass_bead == "shatter"
 renamed_data$IndoPacific_bead
