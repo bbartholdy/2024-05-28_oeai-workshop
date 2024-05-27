@@ -57,7 +57,7 @@ percent_sex <- mortuary_data_sex |>
   group_by(Phase) |>
   mutate(percent = (n / sum(n)) * 100)
 
-percent_sex |>
+percent_sex |> 
   ggplot(aes(x = Phase, y = percent, fill = Sex)) +
   geom_bar(stat = "identity")
   
