@@ -1,0 +1,21 @@
+library(tidyverse)
+
+mortuary_data <- read_csv("https://edu.nl/hwgat")
+
+ggplot(
+  data = mortuary_data,
+  mapping = aes(x = Length, y = Width)
+  ) + 
+  geom_point(col = "#ffffff")
+
+ggplot(
+  data = mortuary_data,
+  mapping = aes(x = Length, y = Width)
+) + 
+  geom_point(aes(colour = Phase, shape = Phase)) +
+  geom_smooth(method = "lm", se = TRUE) +
+  scale_color_viridis_d() +
+  theme_minimal()
+
+
+
