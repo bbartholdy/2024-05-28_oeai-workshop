@@ -8,3 +8,9 @@ library(readxl)
 raw_data <- read_xlsx("data-raw/mortuary-data.xlsx")
 
 str(raw_data)
+
+raw_data |>
+  rename(
+    Height = Hight,
+    IndoPacific_bead = `Indo-Pacific_bead`
+  ) 
