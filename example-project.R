@@ -17,5 +17,22 @@ ggplot(
   scale_color_viridis_d() +
   theme_minimal()
 
+filter(
+  mortuary_data,
+  Phase == "pre" |
+    Phase == "chi" |
+    Phase == "post" |
+    Phase == "euro"
+  )
+
+known_context <- filter(
+  mortuary_data,
+  Phase != "disturbed"
+)
+
+# under the hood of filter()
+mortuary_data$Phase != "disturbed"
 
 
+
+data.frame(mortuary_data)
