@@ -7,10 +7,24 @@ library(readxl)
 
 raw_data <- read_xlsx("data-raw/mortuary-data.xlsx")
 
-str(raw_data)
+str(raw_data) # view structure of object
 
 renamed_data <- raw_data |>
   rename(
     Height = Hight,
     IndoPacific_bead = `Indo-Pacific_bead`
   ) 
+
+renamed_data$Length
+
+renamed_data |>
+  mutate(
+    Glass_bead = if_else(
+      condition = Glass_bead == "shatter",
+      true = NA,
+      false = Glass_bead
+    )
+  )
+
+renamed_data$Glass_bead == "shatter"
+
