@@ -30,3 +30,7 @@ Here is a list of materials used during excavation:
 1. Gun
 2. Whip
 3. Hat
+
+## Methods
+
+I recently learned R, which is why I'm using it here. I'm using `version$version.string`.
