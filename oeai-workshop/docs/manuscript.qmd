@@ -6,6 +6,13 @@ format: html
 engine: knitr
 ---
 
+```{r}
+library(tidyverse)
+library(here)
+mortuary_data <- read_csv(here("data/mortuary_clean.csv"))
+```
+
+
 ## Introduction
 
 This is a **totally** made up study. The 
