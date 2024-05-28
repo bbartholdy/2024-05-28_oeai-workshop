@@ -7,6 +7,9 @@ engine: knitr
 execute: 
   echo: false
   warning: false
+crossref: 
+  tbl-prefix: Tabelle
+  fig-prefix: Abbildung
 ---
 
 ```{r}
