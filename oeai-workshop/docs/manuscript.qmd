@@ -28,5 +28,5 @@ Here is a list of materials used during excavation:
   * to keep away dig-site cats
   
 1. Gun
-2. Whip
+4. Whip
 3. Hat
