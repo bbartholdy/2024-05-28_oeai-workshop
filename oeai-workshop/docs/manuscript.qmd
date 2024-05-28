@@ -2,7 +2,10 @@
 title: "Symbolic Material Culture within an Ancient Catastrophic Temple Complex"
 author: Dr. Henry Walton Jones Jr.
 date: "1984"
-format: html
+format: 
+  html: default
+  docx: default
+  pdf: default
 engine: knitr
 execute: 
   echo: false
