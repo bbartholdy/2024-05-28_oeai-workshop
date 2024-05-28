@@ -19,6 +19,7 @@ New paragraph.
 ## Materials
 
 Here is a list of materials used during excavation:
+
 - Whip
   + for careful excavation
 - Hat
