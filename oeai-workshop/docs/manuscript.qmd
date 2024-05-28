@@ -7,5 +7,10 @@ format: html
 
 ## Introduction
 
-This is a **totally** made up study. The *data* are ***VERY*** real though.
+This is a **totally** made up study. The 
+*data* are ***VERY*** real though.
+It is very important to state that any 
+conclusions reached in this article are
+the ramblings of a fictional
+archaeologist.
 
