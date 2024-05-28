@@ -17,6 +17,7 @@ mortuary_data <- read_csv(here("data/mortuary_clean.csv"))
 ```
 
 
+
 ## Introduction
 
 This is a **totally** made up study. The 
@@ -54,6 +55,7 @@ I recently learned R, which is why I'm using it here. I'm using `r version$versi
 |----|----|------------|
 | Item | Another item | A third item |
 
+
 ```{r}
 mortuary_data |>
   mutate(Area = Length * Width) |>
@@ -66,7 +68,9 @@ mortuary_data |>
   knitr::kable()
 ```
 
+
 Let's make a figure.
+
 
 ```{r}
 mortuary_data |>
@@ -75,7 +79,4 @@ mortuary_data |>
   ggplot(aes(x = Phase, y = Area)) +
   geom_boxplot()
 ```
-
-
-
 
