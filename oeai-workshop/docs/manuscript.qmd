@@ -74,7 +74,8 @@ mortuary_data |>
   filter(Phase != "disturbed") |>
   mutate(Area = Length * Width) |>
   ggplot(aes(x = Phase, y = Area)) +
-  geom_boxplot()
+  geom_violin() +
+  geom_boxplot() 
 ```
 
 
