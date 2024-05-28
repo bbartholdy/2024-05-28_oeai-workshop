@@ -91,8 +91,7 @@ mortuary_data |>
   theme_bw() +
   theme(legend.position = "none",
         axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1),
-        axis.title.x = element_text(size = 12, colour = "purple"),
-        plot.title = element_text(family = "Arial"))
+        axis.title.x = element_text(size = 12, colour = "purple"))
 ```
 
 Our results are visible in @fig-boxplot-area and @tbl-area-phase.
