@@ -39,4 +39,6 @@ I recently learned R, which is why I'm using it here. I'm using `r version$versi
 
 ## Results
 
-
+| Column 1 | Column 2 | Column 3 |
+|----|----|------------|
+| Item | Another item | A third item |
