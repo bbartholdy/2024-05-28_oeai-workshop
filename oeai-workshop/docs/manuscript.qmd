@@ -21,6 +21,8 @@ New paragraph.
 Here is a list of materials used during excavation:
 
 - Whip
+  + for careful excavation
 - Hat
+  + protection from sun
 - Gun
-
+  * to keep away dig-site cats
