@@ -56,6 +56,8 @@ I recently learned R, which is why I'm using it here. I'm using `r version$versi
 | Item | Another item | A third item |
 
 ```{r}
+#| label: tbl-area-phase
+#| tbl-cap: "This is a table."
 mortuary_data |>
   mutate(Area = Length * Width) |>
   group_by(Phase) |>
@@ -70,13 +72,24 @@ mortuary_data |>
 Let's make a figure.
 
 ```{r}
+#| label: fig-boxplot-area
 mortuary_data |>
   filter(Phase != "disturbed") |>
   mutate(Area = Length * Width) |>
   ggplot(aes(x = Phase, y = Area)) +
-  geom_violin() +
-  geom_boxplot() 
+  geom_violin(aes(fill = Phase)) +
+  geom_boxplot(width = 0.2) +
+  labs(title = "A boxplot",
+       x = "Phase of occupation",
+       y = "Area in cm^2") +
+  theme_bw() +
+  theme(legend.position = "none",
+        axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1),
+        axis.title.x = element_text(size = 12, colour = "purple"),
+        plot.title = element_text(family = "Roboto"))
 ```
+
+
 
 
 
