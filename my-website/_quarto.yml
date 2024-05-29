@@ -1,0 +1,13 @@
+project:
+  type: website
+
+website:
+  title: "Emmett Brickowski"
+
+format:
+  html:
+    theme: lux # more themes here: https://quarto.org/docs/output-formats/html-themes.html
+    toc: false
+
+editor: visual
+

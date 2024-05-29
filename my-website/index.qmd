@@ -1,0 +1,28 @@
+---
+title: Emmett Brickowski
+about:
+  image: profile.png
+  template: jolla
+  links: 
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com
+    - icon: facebook
+      text: Facebook
+      href: https://facebook.com
+    - icon: github
+      text: GitHub
+      href: https://github.com/bbartholdy/2024-05-28_oeai-workshop/my-website
+---
+
+Hello, I'm Emmett, a construction worker and totally normal guy.
+My favourite TV show is 'Where are my Pants?' and my favourite song
+is 'Everything is Awesome'. I also like to drink reasonably-priced coffee. My best
+friends are Lucy, Vitruvius, Batman, Princess Unkitty, Benny, Good Cop,
+and Planty.
+
+## Education
+
+MSc in Advanced Awesome from the University of Cloud Cuckoo Land
+
+BSc in Awesome from the University of Bricksburg
