@@ -25,6 +25,16 @@ mortuary-project/
   + [:page_facing_up: 02_data-viz.R](/project-name/scripts/02_data-viz.R)
   + [:page_facing_up: 03_data-transform.R](/project-name/scripts/03_data-transform.R)
 
+## Resources
+
+Rchaeology community [website](https://rchaeology.github.io)
+
+R for Data Science [book](https://r4ds.hadley.nz/)
+
+Data Carpentry [workshop materials](https://datacarpentry.org/r-socialsci/)
+
+Quarto [website](https://quarto.org/)
+
 ## License
 
 The data are from Li-Ying Wang and Ben Marwick (2021; https://doi.org/10.17605/OSF.IO/XGA6N)
