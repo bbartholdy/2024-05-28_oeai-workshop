@@ -35,6 +35,8 @@ Data Carpentry [workshop materials](https://datacarpentry.org/r-socialsci/)
 
 Quarto [website](https://quarto.org/)
 
+Quarto [tip a day](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/)
+
 ## License
 
 The data are from Li-Ying Wang and Ben Marwick (2021; https://doi.org/10.17605/OSF.IO/XGA6N)
