@@ -13,6 +13,7 @@ execute:
 crossref: 
   tbl-prefix: Tabelle
   fig-prefix: Abbildung
+bibliography: references.bib
 ---
 
 ```{r}
@@ -96,7 +97,12 @@ mortuary_data |>
 
 Our results are visible in @fig-boxplot-area and @tbl-area-phase.
 
+Blah blah blah @akcaliDentalCalculus2018
 
+<!-- add comment here
+any comments here
+-->
 
+## References cited
 
 
