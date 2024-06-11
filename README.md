@@ -12,7 +12,7 @@ can be found below.
 
 Link to example data: <https://edu.nl/hwgat>
 
-mortuary-project/
+oeai-workshop/
 
 - :file_folder: data
 - :file_folder: data-raw
