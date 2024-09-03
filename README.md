@@ -18,12 +18,11 @@ oeai-workshop/
 - :file_folder: data-raw
   + [:page_facing_up: mortuary_data.R](/oeai-workshop/data-raw/mortuary_data.R)
 - :file_folder: docs
-  + [:page_facing_up: manuscript.qmd](/project-name/docs/manuscript.qmd)
+  + [:page_facing_up: manuscript.qmd](/oeai-workshop/docs/manuscript.qmd)
 - :file_folder: figures
 - :file_folder: scripts
-  + [:page_facing_up: 01_data-clean.R](/project-name/scripts/01_data-cleaning.R)
-  + [:page_facing_up: 02_data-viz.R](/project-name/scripts/02_data-viz.R)
-  + [:page_facing_up: 03_data-transform.R](/project-name/scripts/03_data-transform.R)
+  + [:page_facing_up: 01_data-viz.R](/oeai-workshop/scripts/01_data-viz.R)
+  + [:page_facing_up: 02_data-transform.R](/oeai-workshop/scripts/02_data-transform.R)
 
 ## Resources
 
